@@ -430,6 +430,19 @@ h4 {
 
 .about-text p strong { color: var(--color-text); }
 
+.about-lead {
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.about-stack {
+  margin-top: 1.75rem;
+  font-size: 0.85rem;
+  font-style: italic;
+}
+
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
