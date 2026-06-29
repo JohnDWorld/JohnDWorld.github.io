@@ -3,9 +3,255 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>John Demory - Agentic Engineer</title>
+  <title>John Demory - Agentic Engineer | Agents IA souverains pour TPE/PME</title>
+  <meta name="description" content="J'automatise les taches repetitives des TPE/PME avec des agents IA qui tournent chez vous, pas chez un SaaS opaque. Local-first, cout maitrise, en production 24/7.">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="John Demory - Agentic Engineer">
+  <meta property="og:description" content="Agents IA souverains pour TPE/PME. Local-first, cout maitrise, en production 24/7.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://johndworld.github.io">
+  <meta property="og:locale" content="fr_FR">
+
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Bientot...</h1>
+
+  <!-- ========== HERO ========== -->
+  <header class="hero">
+    <nav class="nav">
+      <span class="nav-brand">John Demory</span>
+      <a href="#contact" class="btn btn-sm">Me contacter</a>
+    </nav>
+
+    <div class="hero-content">
+      <p class="hero-eyebrow">Agentic Engineer - Lorient, Bretagne</p>
+      <h1>Arretons d'etre l'esclave de nos outils informatiques.</h1>
+      <p class="hero-sub">
+        J'automatise les taches repetitives des TPE/PME avec des agents IA qui tournent
+        <strong>chez vous</strong>, pas chez un SaaS opaque. Code en production 24/7,
+        donnees chez vous, cout visible au token.
+      </p>
+      <div class="hero-ctas">
+        <a href="#contact" class="btn btn-primary">Parlons de votre projet</a>
+        <a href="#preuves" class="btn btn-ghost">Voir les realisations</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ========== PROBLEME / PROMESSE ========== -->
+  <section class="section section-alt" id="probleme">
+    <div class="container">
+      <h2>Vos taches repetitives mangent votre temps. Et vos outils ne s'en chargent pas.</h2>
+      <div class="problem-grid">
+        <div class="problem-card">
+          <span class="problem-icon">?</span>
+          <p>Vous passez des heures a trier vos mails, relancer vos prospects, surveiller votre tresorerie - des taches que tout le monde fait, mais personne ne veut faire.</p>
+        </div>
+        <div class="problem-card">
+          <span class="problem-icon">!</span>
+          <p>Les outils SaaS du marche ? Opaques sur les donnees, couteux a l'usage, et ils disparaissent du jour au lendemain. Vous construisez sur du sable.</p>
+        </div>
+        <div class="problem-card problem-card-solution">
+          <span class="problem-icon">+</span>
+          <p>Je construis des agents IA sur mesure qui tournent sur votre infrastructure. Vos donnees restent chez vous. Le cout est mesure. Le code est versionne et auditable.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PREUVES ========== -->
+  <section class="section" id="preuves">
+    <div class="container">
+      <h2>Ce qui tourne en production</h2>
+      <p class="section-sub">Pas des prototypes. Pas des demos. Des systemes qui tournent 24/7.</p>
+
+      <div class="proof-grid">
+
+        <article class="proof-card proof-card-featured">
+          <div class="proof-header">
+            <span class="proof-tag">Systeme multi-agents</span>
+            <h3>Mon Village Viking</h3>
+          </div>
+          <p>Un orchestrateur de 9 agents specialises qui collaborent sur un tableau partage : prospection, veille technologique, tresorerie (Open Banking), e-mail (IMAP), agenda, memoire/RAG, administration.</p>
+          <ul class="proof-details">
+            <li>Pilotage depuis Telegram</li>
+            <li>Inference locale avec Ollama + fallback cloud</li>
+            <li>Deploiement Docker, secrets chiffres (sops/age)</li>
+            <li>Reseau prive isole (Tailscale/Headscale)</li>
+            <li>Tourne 24/7 sur VPS, GitOps de bout en bout</li>
+          </ul>
+        </article>
+
+        <article class="proof-card">
+          <div class="proof-header">
+            <span class="proof-tag">Automatisation metier</span>
+            <h3>Integrations livrees</h3>
+          </div>
+          <ul class="proof-details">
+            <li><strong>Open Banking</strong> : veille de tresorerie temps reel, anti-spam deterministe</li>
+            <li><strong>E-mail</strong> : tri et classement automatique (Gmail / Proton via IMAP)</li>
+            <li><strong>Agenda</strong> : synchronisation Google Calendar</li>
+            <li><strong>Prospection</strong> : bots Telegram automatises</li>
+            <li><strong>Veille</strong> : recherche web souveraine (SearXNG)</li>
+          </ul>
+        </article>
+
+        <article class="proof-card">
+          <div class="proof-header">
+            <span class="proof-tag">Ingenierie d'agents</span>
+            <h3>Patterns que j'applique</h3>
+          </div>
+          <ul class="proof-details">
+            <li><strong>Wake-gate / delta-gate</strong> : un agent ne se reveille que si du neuf arrive. Zero bruit, zero cout inutile.</li>
+            <li><strong>GitOps strict</strong> : repo = source, runtime = sortie. Deploiement idempotent, reproductible.</li>
+            <li><strong>Isolation client totale</strong> : un depot par client, zero fuite inter-client.</li>
+            <li><strong>Secrets chiffres</strong> : sops + age, jamais en clair dans le repo.</li>
+          </ul>
+        </article>
+
+        <article class="proof-card">
+          <div class="proof-header">
+            <span class="proof-tag">Communication automatisee</span>
+            <h3>Obvious Agence</h3>
+          </div>
+          <p>Co-fondateur d'Obvious Agence (avec Baptiste) : audit creatif automatise, analyse concurrentielle video sur ~25 signaux, generation de rapports PDF. Prospection outbound automatisee.</p>
+          <p class="proof-note">Entite separee - citee comme experience.</p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== OFFRE ========== -->
+  <section class="section section-alt" id="offre">
+    <div class="container">
+      <h2>Ce que je propose</h2>
+
+      <div class="offer-grid">
+        <div class="offer-card offer-card-saas">
+          <div class="offer-header">
+            <span class="offer-tag">SaaS</span>
+            <h3>La Boutique a Automatisations</h3>
+          </div>
+          <p>Des outils numeriques simples et accessibles pour les independants et TPE/PME. Prets a l'emploi, prix juste, sans engagement SaaS opaque.</p>
+          <a href="https://la-boutique-a-automatisations.com" class="btn btn-outline" target="_blank" rel="noopener">Decouvrir la Boutique</a>
+        </div>
+
+        <div class="offer-card offer-card-custom">
+          <div class="offer-header">
+            <span class="offer-tag">Sur mesure</span>
+            <h3>Build d'agents IA pour votre metier</h3>
+          </div>
+          <p>Vous avez une tache repetitive specifique - tri de mails, relance prospects, surveillance de tresorerie, veille concurrentielle. Je construis l'agent qui la prend en charge, tourne sur votre infra, et reste auditable.</p>
+          <ul class="offer-details">
+            <li>Diagnostic de votre besoin</li>
+            <li>Build et deploiement sur votre infrastructure</li>
+            <li>Code versionne, secrets chiffres, documentation</li>
+            <li>[[A COMPLETER : tarification - a definir avec John]]</li>
+          </ul>
+          <a href="#contact" class="btn btn-primary">Parlons de votre besoin</a>
+        </div>
+      </div>
+
+      <!-- Calculateur de cout -->
+      <div class="calc-teaser" id="calculateur">
+        <h3>Cout reel d'un agent IA</h3>
+        <p>
+          A titre indicatif : une tache de prospection automatisee coute environ <strong>1,50 $</strong> de compute ;
+          un audit complet environ <strong>1,15 $</strong>. Ce sont des couts d'inference - pas des prix de vente.
+        </p>
+        <p class="calc-note">[[A INTEGRER : calculateur interactif (fichier calculateur-cout-api.html a fournir par John)]]</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== QUI SUIS-JE ========== -->
+  <section class="section" id="a-propos">
+    <div class="container about-grid">
+      <div class="about-text">
+        <h2>Qui suis-je</h2>
+        <p>
+          <strong>10 ans dans la Marine Nationale.</strong> Sur le terrain, j'ai cote des professionnels ultra-competents - bloques par des outils trop complexes ou inadaptes. Cette frustration m'a convaincu d'une chose : l'informatique doit servir les gens, pas l'inverse.
+        </p>
+        <p>
+          J'ai appris le developpement en parallele (Titre professionnel niveau 6, OpenClassrooms). En 2024, je quitte la Marine et je fonde mon activite. En 2025, je lance <strong>La Boutique a Automatisations</strong> avec une conviction : des outils souverains, locaux, mesurables - pas des abonnements SaaS qu'on ne controle pas.
+        </p>
+        <p>
+          Je suis base a Lorient, je travaille a distance. Philosophie : <strong>local-first, souverainete numerique, GitOps</strong>. Le repo est la source de verite. Tout ce qui tourne est reproductible, versionne, auditable.
+        </p>
+
+        <div class="skills-grid">
+          <div class="skills-group">
+            <h4>Architecture</h4>
+            <ul>
+              <li>Multi-agents LLM</li>
+              <li>Inference locale (Ollama)</li>
+              <li>Routage par tier + fallback cloud</li>
+              <li>Patterns wake-gate / delta-gate</li>
+            </ul>
+          </div>
+          <div class="skills-group">
+            <h4>Infra & DevOps</h4>
+            <ul>
+              <li>Docker, GitOps</li>
+              <li>Secrets chiffres (sops/age)</li>
+              <li>Reseau prive (Tailscale/Headscale)</li>
+              <li>VPS, deploiement idempotent</li>
+            </ul>
+          </div>
+          <div class="skills-group">
+            <h4>Integrations</h4>
+            <ul>
+              <li>Telegram, Open Banking</li>
+              <li>IMAP (Gmail, Proton)</li>
+              <li>Google Calendar, Supabase</li>
+              <li>SearXNG (recherche souveraine)</li>
+            </ul>
+          </div>
+          <div class="skills-group">
+            <h4>Dev</h4>
+            <ul>
+              <li>Python, Bash</li>
+              <li>Django, n8n</li>
+              <li>HTML/CSS, JS vanilla</li>
+              <li>SQL (Supabase/Postgres)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT ========== -->
+  <section class="section section-contact" id="contact">
+    <div class="container contact-inner">
+      <h2>Parlons de votre projet</h2>
+      <p>Une tache repetitive qui vous prend trop de temps ? Un systeme que vous voulez automatiser sans dependre d'un SaaS opaque ? Ecrivez-moi.</p>
+
+      <div class="contact-links">
+        <a href="mailto:john.mail.pro.manager135@passmail.net" class="contact-link contact-link-email">
+          <span class="contact-icon">@</span>
+          <span>john.mail.pro.manager135@passmail.net</span>
+        </a>
+        <a href="https://www.linkedin.com/in/jonathandemory/" class="contact-link contact-link-li" target="_blank" rel="noopener">
+          <span class="contact-icon">in</span>
+          <span>linkedin.com/in/jonathandemory</span>
+        </a>
+        <a href="https://www.instagram.com/john_demory" class="contact-link contact-link-ig" target="_blank" rel="noopener">
+          <span class="contact-icon">ig</span>
+          <span>@john_demory</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>John Demory - Agentic Engineer - Lorient, Bretagne</p>
+      <p class="footer-sub">Site statique, sans tracker, heberge sur GitHub Pages.</p>
+    </div>
+  </footer>
+
 </body>
 </html>
