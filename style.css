@@ -336,11 +336,20 @@ h4 {
   display: grid;
   gap: var(--gap);
   grid-template-columns: 1fr;
-  margin-bottom: 3rem;
+  margin-bottom: 1.5rem;
 }
 
-@media (min-width: 768px) {
-  .offer-grid { grid-template-columns: 1fr 1.6fr; }
+@media (min-width: 900px) {
+  .offer-grid { grid-template-columns: repeat(3, 1fr); }
+}
+
+.offer-card .btn { margin-top: auto; }
+
+.offer-note {
+  color: var(--color-text-mute);
+  font-size: 0.95rem;
+  max-width: 720px;
+  margin-bottom: 3rem;
 }
 
 .offer-card {
