@@ -134,6 +134,8 @@ h4 {
 
 .btn-sm { padding: 0.45rem 1rem; font-size: 0.875rem; }
 
+.btn-lg { padding: 0.85rem 1.85rem; font-size: 1.05rem; }
+
 /* ============================================================
    Nav
    ============================================================ */
@@ -502,6 +504,14 @@ h4 {
 .contact-inner > p {
   color: var(--color-text-mute);
   margin-bottom: 2rem;
+}
+
+.contact-cta { margin-bottom: 2rem; }
+
+.contact-inner .contact-alt {
+  color: var(--color-text-mute);
+  font-size: 0.9rem;
+  margin-bottom: 0.75rem;
 }
 
 .contact-links {
