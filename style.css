@@ -270,7 +270,7 @@ h4 {
 }
 
 .proof-card-featured::before {
-  content: "En prod 24/7";
+  content: attr(data-badge);
   position: absolute;
   top: -0.65rem;
   left: 1.5rem;
@@ -321,6 +321,8 @@ h4 {
 }
 
 .proof-details li strong { color: var(--color-text); }
+
+.proof-card > .btn { margin-top: 1.25rem; }
 
 .proof-note {
   font-size: 0.8rem;
